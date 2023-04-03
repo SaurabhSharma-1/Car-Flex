@@ -1,0 +1,33 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-size: 3em;
+	border-bottom: 2px solid orangered;
+	border-right: 2px solid orangered;
+	border-left: 2px solid orangered;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 4px black;
+}
+img{
+	height: 400px;
+	width: 400px;
+	margin: 5px;
+	transition: all 1s;
+
+}
+.center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+img:hover {
+	transform: scale(1.1);
+}
